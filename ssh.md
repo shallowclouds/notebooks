@@ -16,10 +16,6 @@ $ apt-get install chromium-browser
 
 vultr1098, spider1234,
 
-```bash
-$ apt-get install GConf-2.4
-```
-
 install chrome for ubuntu
 
 ```bash
@@ -49,7 +45,7 @@ If you are using `ubuntu`, you have to use the following steps to avoid this err
 2. GRANT ALL PRIVILEGES ON *.* TO 'cacti'@'%' IDENTIFIED BY 'cacti' WITH GRANT OPTION;  
 3. \#重新载入赋权表  
 4. FLUSH PRIVILEGES;  
-5.   
+5.   ​
 6. \#收回权限(不包含赋权权限)  
 7. REVOKE ALL PRIVILEGES ON *.* FROM cacti;  
 8. REVOKE ALL PRIVILEGES ON cacti.* FROM cacti;  
