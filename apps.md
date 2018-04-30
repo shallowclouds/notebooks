@@ -17,7 +17,21 @@ $ sudo systemctl start/stop/restart shadowsocks-libev.service
 #### golang
 
 ```bash
-$ tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+# $ tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+$ sudo apt-get update
+$ sudo apt-get install golang-go
+# add to /etc/profile
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=/home/gopath
+export PATH="$GOPATH/bin:$PATH"
+
 $ export PATH=$PATH:/usr/local/go/bin
+```
+
+#### beego
+
+```bash
+$ go get -u github.com/astaxie/beego
+$ go get -u github.com/beego/bee
 ```
 
