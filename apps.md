@@ -35,3 +35,9 @@ $ go get -u github.com/astaxie/beego
 $ go get -u github.com/beego/bee
 ```
 
+#### chromium
+```bash
+$ apt-get install chromium-browser
+
+```
+
