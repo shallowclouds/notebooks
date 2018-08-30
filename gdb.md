@@ -15,6 +15,7 @@ gdb main.cpp
 (gdb) set var sum=0                 //修改变量值
 (gdb) list/l 行号或函数名             //列出源码
 (gdb) display/undisplay sum         //每次停下显示变量的值/取消跟踪
+(gdb) display *数组名@{10}           //显示数组前10个元素的值
 (gdb) break/b  行号或函数名           //设置断点
 (gdb) continue/c                    //连续运行
 (gdb) info/i breakpoints            //查看已经设置的断点
