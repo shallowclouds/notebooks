@@ -175,3 +175,24 @@ $ git show <tag-name>
 $ git tag -d <tag-name>
 ```
 
+#### 推送标签
+
+```bash
+$ git push origin --tags
+```
+
+#### 删除远程标签
+
+```bash
+# delete tag locally
+$ git tag -d <tag-name>
+# push to remote
+$ git push origin :refs/tags/<tag-name>
+```
+
+### GitHub
+
+#### `.gitignore`
+
+[https://github.com/github/gitignore](https://github.com/github/gitignore)
+
